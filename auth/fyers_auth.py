@@ -4,7 +4,6 @@ Handles OAuth 2.0 authentication flow for Fyers API
 """
 import logging
 from fyers_apiv3 import fyersModel
-from fyers_apiv3.FyersWebsocket import order_ws
 import webbrowser
 from urllib.parse import urlparse, parse_qs
 import config
